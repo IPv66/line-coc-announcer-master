@@ -18,5 +18,4 @@ A line bot ment for announcing clash of clan war events :P
 
 # Questions?
 Feel free to message me
-Line: austyn-studdard
-Discord: KingCosmic#2713
+
