@@ -19,7 +19,7 @@ var options = {
     'User-Agent': 'line-coc-announcer'
   },
   json: true // Automatically parses the JSON string in the response
-};
+};//help
 
 rp(options)
 .then(function (data) {
