@@ -23,7 +23,7 @@ var options = {
 
 rp(options)
 .then(function (data) {
-  checkForUpdate(data[0].sha, data[0].commit.message);
+  checkForUpdate(data[0].sha, data[0].commit.message);//pri
 })
 
 setInterval(function() {
