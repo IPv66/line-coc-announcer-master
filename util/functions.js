@@ -11,7 +11,7 @@ const crypto = require('crypto');
 global.Storage = nodePersist.create({
   dir: 'storage',
   expiredInterval: 1000 * 60 * 60 * 24 * 9 // Cleanup Files older than a week + 2 days for prep / war day.
-})
+})//
 
 Storage.initSync()
 
