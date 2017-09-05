@@ -18,7 +18,7 @@ Storage.initSync()
 var users = Storage.getItemSync("users");
 if (!users) {
   Storage.setItemSync("users", []);
-}
+}//
 var warAtt = Storage.getItemSync("warAttacks");
 if (!warAtt) {
   warAtt = new Array(31);
@@ -33,7 +33,7 @@ if (!warCalls) {
   warCalls[0] = "dont use me"
   Storage.setItemSync("warCalls", warCalls);
 }
-
+//
 exports.getCurrentWar = (clanTag, done) => {
   client
   .clanCurrentWarByTag(clanTag)
